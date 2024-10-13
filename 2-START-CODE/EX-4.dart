@@ -14,6 +14,7 @@ void main() {
     if (pizzaPrices.containsKey(pizza)) {
       total += pizzaPrices[pizza]!;
     } else {
+      // if the order doesn't contain with the pizza price 
       print('$pizza is not on the menu');
     }
   }
