@@ -10,8 +10,6 @@ void main() {
   const order = ['margherita', 'pepperoni', 'pineapple'];
   // Your code
   double total = 0.0;
-
-  // Loop through each pizza in the order
   for (var pizza in order) {
     if (pizzaPrices.containsKey(pizza)) {
       total += pizzaPrices[pizza]!;
@@ -19,7 +17,6 @@ void main() {
       print('$pizza is not on the menu');
     }
   }
-  // Print total if valid pizzas are ordered
   if (total > 0) {
     print('Total: \$${total}');
   }
