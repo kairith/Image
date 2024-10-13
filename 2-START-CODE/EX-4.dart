@@ -16,7 +16,7 @@ void main() {
     if (pizzaPrices.containsKey(pizza)) {
       total += pizzaPrices[pizza]!;
     } else {
-      print('$pizza pizza is not on the menu');
+      print('$pizza is not on the menu');
     }
   }
   // Print total if valid pizzas are ordered
